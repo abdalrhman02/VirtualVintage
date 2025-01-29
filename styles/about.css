@@ -1,0 +1,171 @@
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+main h1 {
+    text-align: center;
+    color: #333;
+}
+
+main p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+}
+
+/* General Styling */
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Overview Section */
+.about-overview {
+    background: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.about-overview h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+.about-overview p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Mission Section */
+.about-mission {
+    padding: 40px;
+    text-align: center;
+}
+
+.about-mission h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.about-mission p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Values Section */
+.about-values {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.value-card {
+    background: #fff;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.value-card h1 {
+    font-size: 38px;
+}
+.value-card h3 {
+    margin: 10px 0;
+}
+.value-card p {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+}
+
+/* Team Section */
+.about-team {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-team h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 220px;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Contact Section */
+.about-contact {
+    text-align: center;
+    padding: 40px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.about-contact h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.about-contact p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.about-contact a {
+    color: #8b4513;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.about-contact a:hover {
+    text-decoration: underline;
+}
