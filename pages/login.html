@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Virtual Vintage | Login</title>
+        <link rel="stylesheet" href="../styles/all.css">
+        <link rel="stylesheet" href="../styles/login.css">
+
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="app">
+            <header class="header">
+                <img src="../images/logo.png" alt="Virtual Vintage Logo" />
+            </header>
+            
+            <nav class="nav">
+                <a href="../index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="login.html">Login</a>
+            </nav>
+
+            <section class="login-section">
+                <h3>Login to Your Account</h3>
+                <div class="login-form">
+                    <form action="login_action.php" method="POST">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                        <button type="submit" class="cta-button">Log In</button>
+                    </form>
+
+                    <p class="forgot-password">
+                        <a href="forgot-password.html">Forgot your password?</a>
+                    </p>
+                </div>
+            </section>
+
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h4>Contact Us</h4>
+                        <p>📍 123 Vintage Lane</p>
+                        <p>📞 (999) 123-4567</p>
+                        <p>✉️ info@vintage.com</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Opening Hours</h4>
+                        <p>Monday - Friday: 10am - 8pm</p>
+                        <p>Saturday: 11am - 6pm</p>
+                        <p>Sunday: 12pm - 5pm</p>
+                    </div>
+                </div>
+                <p class="copyright">© 2024 Vintage Treasures. All rights reserved.</p>
+                <p class="st">כל הזכויות שמורה ל רגד כעבייה 325520377 | נגם עאסלה 214028417 | גופראן חגאגרה 214053407 | אחמד נעאמנה 215116898</p>
+            </footer>
+        </div>
+    </body>
+</html>
